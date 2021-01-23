@@ -1,0 +1,297 @@
+CRITICAL - 2021-01-23 02:50:22 --> Call to undefined function extend()
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(21): view()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 02:54:03 --> Call to undefined function link_tag()
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(525): CodeIgniter\View\View->render()
+#2 /home/vicky/dev/www/server/app/Views/_partial/base.php(7): CodeIgniter\View\View->include()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vicky/dev...')
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(257): CodeIgniter\View\View->render()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#6 /home/vicky/dev/www/server/app/Controllers/Server.php(21): view()
+#7 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#8 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#9 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-23 03:20:31 --> Call to undefined method CodeIgniter\View\View::renderSerction()
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(257): CodeIgniter\View\View->render()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /home/vicky/dev/www/server/app/Controllers/Server.php(21): view()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 04:21:12 --> syntax error, unexpected '$hosts' (T_VARIABLE), expecting ')'
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 04:43:06 --> Undefined variable: hosts
+#0 /home/vicky/dev/www/server/app/Views/sites/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vicky/dev...')
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /home/vicky/dev/www/server/app/Controllers/Server.php(22): view()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 05:23:56 --> Undefined variable: tabe
+#0 /home/vicky/dev/www/server/app/Models/Default_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(49): App\Models\Default_model->setTable()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:24:21 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(50): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:24:47 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(50): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:27:04 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(49): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:27:54 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(49): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:27:59 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(49): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:30:10 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(49): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:30:13 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(49): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:32:46 --> Too few arguments to function App\Models\Default_model::getAsYouWish(), 0 passed in /home/vicky/dev/www/server/app/Controllers/Server.php on line 49 and at least 1 expected
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(49): App\Models\Default_model->getAsYouWish()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 05:37:54 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(52): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:38:43 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(52): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:40:37 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(52): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(17): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:41:56 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(54): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:43:17 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(54): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 05:44:22 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php on line 464
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Model.php(464): CodeIgniter\Database\BaseResult->getResult()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(54): CodeIgniter\Model->findAll()
+#2 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getSites()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-23 08:32:01 --> Undefined variable: sites
+#0 /home/vicky/dev/www/server/app/Views/sites/index.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vicky/dev...')
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /home/vicky/dev/www/server/app/Controllers/Server.php(26): view()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 08:32:34 --> Illegal string offset 'name'
+#0 /home/vicky/dev/www/server/app/Views/sites/index.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vicky/dev...')
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /home/vicky/dev/www/server/app/Controllers/Server.php(26): view()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 08:34:36 --> Illegal string offset 'name'
+#0 /home/vicky/dev/www/server/app/Views/server/index.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/vicky/dev...')
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /home/vicky/dev/www/server/app/Controllers/Server.php(26): view()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 09:04:25 --> String offset cast occurred
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getStatusApache()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 09:05:29 --> Undefined index: Active
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getStatusApache()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 09:05:57 --> Undefined index: Active
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getStatusApache()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 09:07:04 --> Undefined index: Active
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getStatusApache()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 09:07:17 --> Undefined index: Active
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getStatusApache()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 09:08:23 --> Undefined index: Active
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-23 09:08:43 --> Use of undefined constant Active - assumed 'Active' (this will throw an Error in a future version of PHP)
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-23 09:08:51 --> syntax error, unexpected '{', expecting ']'
+#0 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists()
+#5 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 09:14:10 --> Invalid argument supplied for foreach()
+#0 /home/vicky/dev/www/server/app/Controllers/Server.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/vicky/dev/www/server/app/Controllers/Server.php(19): App\Controllers\Server->getStatusApache()
+#2 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Server->index()
+#3 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/vicky/dev/www/server/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/vicky/dev/www/server/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-23 09:26:35 --> 'continue' not in the 'loop' or 'switch' context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-23 09:40:10 --> 'break' not in the 'loop' or 'switch' context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-23 09:40:38 --> 'continue' not in the 'loop' or 'switch' context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
